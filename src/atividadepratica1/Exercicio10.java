@@ -12,12 +12,10 @@ public class Exercicio10 {
             System.out.print("Digite a senha secreta: ");
             senha = scan.nextLine();
 
-            if(senha.equals(senhaSecreta)){
-                System.out.println("Acesso permitido");
-            }
-            else{
+            if(!senha.equals(senhaSecreta)){
                 System.out.println("Acesso negado");
             }
         }while(!senha.equals(senhaSecreta));
+        System.out.println("Acesso Liberado");
     }
 }
