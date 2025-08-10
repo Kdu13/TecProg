@@ -13,9 +13,9 @@ public class Exercicio10 {
             senha = scan.nextLine();
 
             if(!senha.equals(senhaSecreta)){
-                System.out.println("Acesso negado");
+                System.out.println("Acesso negado, tente novamente.");
             }
         }while(!senha.equals(senhaSecreta));
-        System.out.println("Acesso Liberado");
+        System.out.println("Acesso Liberado.");
     }
 }
