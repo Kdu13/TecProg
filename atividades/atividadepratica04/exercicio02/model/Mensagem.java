@@ -4,6 +4,6 @@ public class Mensagem {
      public String conteudo;
 
      public void enviarMensagem() {
-         System.out.println("Mensagem enviada");
+         System.out.println(conteudo);
      }
 }
