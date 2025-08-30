@@ -1,4 +1,4 @@
-package src.Atividades.atividadepratica01;
+package atividades.atividadepratica01;
 
 import java.util.Scanner;
 

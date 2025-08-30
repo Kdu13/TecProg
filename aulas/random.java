@@ -1,4 +1,4 @@
-package src.aulas;
+package aulas;
 import java.util.Random;  // (Dia da Aula 15/08/25)
 
 public class random {

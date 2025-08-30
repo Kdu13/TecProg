@@ -11,4 +11,20 @@
 *.rar
 
 hs_err_pid*
-replay_pid
+replay_pid*
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+*.class
+*.pyc
+*.pyo
+*.pyd
+pycache/
+*.egg-info/
+.env
+.env.local
+.env..local
