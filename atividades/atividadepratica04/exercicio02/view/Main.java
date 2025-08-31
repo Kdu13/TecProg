@@ -148,13 +148,15 @@ public class Main {
         relatorioEstoque.tipo = "Estoque Anual";
         relatorioEstoque.excluirRelatorio();
 
+        Senha carlos = new Senha();
+        carlos.senhaUsuario = "12345";
+        carlos.senhaValida = "12345";
+        carlos.validarSenha();
 
-
-
-
-
-
-
+        Senha caio = new Senha();
+        caio.senhaUsuario = "54321";
+        caio.senhaValida = "12345";
+        caio.validarSenha();
 
         SistemaOperacional windows = new SistemaOperacional();
         windows.memoriaLivre = 180;
@@ -180,9 +182,9 @@ public class Main {
         tarefaLimpar.tempoExecucao = 20;
         tarefaLimpar.excluirTarefa();
 
-        Usuario carlos = new Usuario();
-        carlos.emailUsuario = "carlos@gmail.com";
-        carlos.acessarSistema();
+        Usuario pedro = new Usuario();
+        pedro.emailUsuario = "pedro@gmail.com";
+        pedro.acessarSistema();
 
         Usuario rosangela = new Usuario();
         rosangela.emailUsuario = "rosangela@gmail.com";
