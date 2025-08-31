@@ -66,11 +66,11 @@ public class Main {
 
         Cliente maiorIdade = new Cliente();
         maiorIdade.idade = 20;
-        maiorIdade.pagar();
+        maiorIdade.compra();
 
         Cliente menorIdade = new Cliente();
         menorIdade.idade = 16;
-        menorIdade.pagar();
+        menorIdade.compra();
 
         ContaBancaria nubank = new ContaBancaria();
         nubank.nomeCliente = "Carlos";

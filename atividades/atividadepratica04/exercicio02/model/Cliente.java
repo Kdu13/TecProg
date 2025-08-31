@@ -4,7 +4,7 @@ public class Cliente {
     
     public int idade;
 
-    public void pagar(){
+    public void compra(){
         if(idade >= 18){
             System.out.println("Você pode consumir bebidas alcoólicas.");
         } else {
