@@ -1,19 +1,29 @@
 package atividades.atividadepratica05.exercicio01.view;
+
 import atividades.atividadepratica05.exercicio01.model.Carro;
+
 public class Main {
-    public static void main(String[] args) /*throws Exception*/ {
-		
-		Carro meuCarro = new Carro("Renault", "Logan", 2015); //Método Construtor.
+	public static void main(String[] args) {
+		Carro meuCarro = new Carro("Renaut", "Logan", 2015);// Construtor
 
-		
-		meuCarro.setAno(2020); // Setter do ano.
-		System.out.println(meuCarro.getModelo()); // Getter do modelo.
+		meuCarro.setModelo("Sandero");//Setter do Modelo
+		System.out.println(meuCarro.getModelo()); // Getter do Modelo
 
-		String marca = meuCarro.getMarca(); // Getter da marca pegando o retorno.
-		System.out.println(marca); //Impressão da variável.
-		
-		meuCarro.ligar(); //Chama o método ligar.
-		meuCarro.acelerar(); //Chama o método acelerar.
-		
+		int ano = meuCarro.getAno(); //Getter da Ano Pegando o Retorno
+
+		System.out.println(ano);//Impressão da Variavel
+
+		meuCarro.ligar();// Chama Método Ligar
+		meuCarro.acelelar();// Chama Método Acelerar
+
+		//Enchendo Tanque
+		meuCarro.setCapacidadeTanque(30);
+		meuCarro.setTanque(15);
+
+		System.out.println(meuCarro.getCapacidadeTanque());
+		System.out.println(meuCarro.getTanque());
+
+		meuCarro.encherTanque(meuCarro.getCapacidadeTanque(), 15, meuCarro.getTanque(), 5);
+		System.out.println(meuCarro.getTanque());
 	}
 }
