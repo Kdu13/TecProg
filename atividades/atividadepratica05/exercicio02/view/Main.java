@@ -6,14 +6,14 @@ public class Main {
     
     public static void main(String[] args) {
         
-        ContaBancaria conta = new ContaBancaria();
+        ContaBancaria nubank = new ContaBancaria();
         
-        conta.setDepositar(1550.25 , " Carlos");
+        nubank.setDepositar(1550.25 , " Carlos");
 
-        conta.setSaldo(conta.getSaldo());
+        nubank.setSaldo(nubank.getSaldo());
 
-        conta.setSacar(530.00 , " Carlos");
+        nubank.setSacar(530.00 , " Carlos");
 
-        conta.setSaldo(conta.getSaldo());
+        nubank.setSaldo(nubank.getSaldo());
     }
 }

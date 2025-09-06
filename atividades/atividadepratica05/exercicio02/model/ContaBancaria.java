@@ -20,7 +20,7 @@ public class ContaBancaria {
     public void setDepositar(double novoDeposito, String titular) {
         if(novoDeposito > 0) {
             this.saldo += novoDeposito;
-            System.out.println("Depósito de: R$" + novoDeposito + " realizado com sucesso " + titular);
+            System.out.println("Depósito de: R$" + novoDeposito + ", realizado com sucesso" + titular);
         } else {
             System.out.println("Depósito inválido" + titular);
         }
@@ -33,7 +33,7 @@ public class ContaBancaria {
     public void setSacar(double novoSaque, String titular) {
         if (novoSaque > 0 && novoSaque <= this.saldo) {
             this.saldo -= novoSaque;
-            System.out.println("Saque de: R$ " + novoSaque + " realizado com sucesso " + titular);
+            System.out.println("Saque de: R$ " + novoSaque + ", realizado com sucesso" + titular);
         } else {
             System.out.println("Saque inválido.");
         }
