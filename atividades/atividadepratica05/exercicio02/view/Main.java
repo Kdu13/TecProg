@@ -1,6 +1,6 @@
 package atividades.atividadepratica05.exercicio02.view;
 
-import atividades.atividadepratica04.exercicio02.model.ContaBancaria;
+import atividades.atividadepratica05.exercicio02.model.ContaBancaria;
 
 public class Main {
     
@@ -8,7 +8,12 @@ public class Main {
         
         ContaBancaria conta = new ContaBancaria();
         
-        conta.setDepositar(1000.25, "João");
-        System.out.println(conta.getDepositar());
+        conta.setDepositar(1550.25 , " Carlos");
+
+        conta.setSaldo(conta.getSaldo());
+
+        conta.setSacar(530.00 , " Carlos");
+
+        conta.setSaldo(conta.getSaldo());
     }
 }

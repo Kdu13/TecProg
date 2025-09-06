@@ -8,8 +8,10 @@ public class Main {
 		
 		meuCarro.setAno(2020); // Setter do ano.
 		System.out.println(meuCarro.getModelo()); // Getter do modelo.
+
 		String marca = meuCarro.getMarca(); // Getter da marca pegando o retorno.
 		System.out.println(marca); //Impressão da variável.
+		
 		meuCarro.ligar(); //Chama o método ligar.
 		meuCarro.acelerar(); //Chama o método acelerar.
 		
