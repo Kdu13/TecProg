@@ -4,7 +4,7 @@ import atividades.atividadepratica05.exercicio01.model.Carro;
 
 public class Main {
 	public static void main(String[] args) {
-		Carro meuCarro = new Carro("Renaut", "Logan", 2015);// Construtor
+		Carro meuCarro = new Carro("Renaut", "Logan", 2015);
 
         //Enchendo Tanque
         meuCarro.setCapacidadeTanque(30);
