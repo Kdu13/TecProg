@@ -10,11 +10,11 @@ public class Main {
         meuCarro.setCapacidadeTanque(30);
         meuCarro.setTanque(15);
 
-        System.out.println(meuCarro.getCapacidadeTanque());
-        System.out.println("A quantidade no tanque é " + meuCarro.getTanque());
+        System.out.println("A capacidade total do Tanque é: " + meuCarro.getCapacidadeTanque());
+        System.out.println("A quantidade no tanque é: " + meuCarro.getTanque());
 
         meuCarro.encherTanque(meuCarro.getCapacidadeTanque(), 15, meuCarro.getTanque(), 5);
-        System.out.println("A quantidade no tanque é " + meuCarro.getTanque());
+        System.out.println("A quantidade no tanque agora é: " + meuCarro.getTanque());
 
         meuCarro.setModelo("Sandero");//Setter do Modelo
         System.out.println(meuCarro.getModelo()); // Getter do Modelo

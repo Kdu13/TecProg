@@ -13,8 +13,6 @@ public class ContaBancaria {
         System.out.println("Seu saldo é: " + saldo);
     }
 
-
-
     public double getDepositar() {
         return this.saldo;
     }
@@ -28,7 +26,6 @@ public class ContaBancaria {
         }
     }
 
-    
     public double getSacar() {
         return this.saldo;
     }
@@ -42,12 +39,5 @@ public class ContaBancaria {
         }
     }
 
-    
-
-    
-
-    
-
-    
 
 }
