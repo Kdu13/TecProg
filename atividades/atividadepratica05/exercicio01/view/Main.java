@@ -13,8 +13,8 @@ public class Main {
 
 		System.out.println(ano);//Impressão da Variavel
 
-		meuCarro.ligar();// Chama Método Ligar
-		meuCarro.acelelar();// Chama Método Acelerar
+		// meuCarro.ligar(); // Chama Método Ligar
+		// meuCarro.acelelar(); // Chama Método Acelerar
 
 		//Enchendo Tanque
 		meuCarro.setCapacidadeTanque(30);
@@ -24,6 +24,7 @@ public class Main {
 		System.out.println(meuCarro.getTanque());
 
 		meuCarro.encherTanque(meuCarro.getCapacidadeTanque(), 15, meuCarro.getTanque(), 5);
+
 		System.out.println(meuCarro.getTanque());
 	}
 }
