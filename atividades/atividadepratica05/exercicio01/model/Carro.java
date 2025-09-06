@@ -21,8 +21,8 @@ public class Carro {
 		return this.capacidadeTanque;
 	}
 
-	public void setCapacidadeTanque(double capacidadeTanque) {
-		this.capacidadeTanque = capacidadeTanque;
+	public void setCapacidadeTanque(double novaTanque) {
+		this.capacidadeTanque = novaTanque;
 	}
 
 	/*TANQUE*/
@@ -30,9 +30,9 @@ public class Carro {
 		return this.tanque;
 	}
 
-	public void setTanque(double litrosAtuais) {
-		if(litrosAtuais <= this.capacidadeTanque){
-			this.tanque = litrosAtuais;
+	public void setTanque(double novaTanque) {
+		if(novaTanque <= this.capacidadeTanque){
+			this.tanque = novaTanque;
 		}
 	}
 	

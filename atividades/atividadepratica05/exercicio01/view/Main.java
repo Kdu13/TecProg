@@ -6,25 +6,24 @@ public class Main {
 	public static void main(String[] args) {
 		Carro meuCarro = new Carro("Renaut", "Logan", 2015);// Construtor
 
-		meuCarro.setModelo("Sandero");//Setter do Modelo
-		System.out.println(meuCarro.getModelo()); // Getter do Modelo
+        //Enchendo Tanque
+        meuCarro.setCapacidadeTanque(30);
+        meuCarro.setTanque(15);
 
-		int ano = meuCarro.getAno(); //Getter da Ano Pegando o Retorno
+        System.out.println(meuCarro.getCapacidadeTanque());
+        System.out.println("A quantidade no tanque é " + meuCarro.getTanque());
 
-		System.out.println(ano);//Impressão da Variavel
+        meuCarro.encherTanque(meuCarro.getCapacidadeTanque(), 15, meuCarro.getTanque(), 5);
+        System.out.println("A quantidade no tanque é " + meuCarro.getTanque());
 
-		// meuCarro.ligar(); // Chama Método Ligar
-		// meuCarro.acelelar(); // Chama Método Acelerar
+        meuCarro.setModelo("Sandero");//Setter do Modelo
+        System.out.println(meuCarro.getModelo()); // Getter do Modelo
 
-		//Enchendo Tanque
-		meuCarro.setCapacidadeTanque(30);
-		meuCarro.setTanque(15);
+        int ano = meuCarro.getAno(); //Getter da Ano Pegando o Retorno
 
-		System.out.println(meuCarro.getCapacidadeTanque());
-		System.out.println(meuCarro.getTanque());
+        System.out.println(ano);//Impressão da Variavel
 
-		meuCarro.encherTanque(meuCarro.getCapacidadeTanque(), 15, meuCarro.getTanque(), 5);
-
-		System.out.println(meuCarro.getTanque());
+        meuCarro.ligar();// Chama Método Ligar
+        meuCarro.acelelar();// Chama Método Acelerar
 	}
 }
