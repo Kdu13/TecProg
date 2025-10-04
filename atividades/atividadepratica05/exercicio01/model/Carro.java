@@ -78,11 +78,11 @@ public class Carro {
 		return this.ano;
 	}
 	public void setAno(int novaAno) {
-		if(ano<2015) {
+		if(ano < 2015) {
 			System.out.println("O ano não pode alterado!");
 		}
 		else {
-			this.ano = ano;
+			this.ano = novaAno;
 		}
 		
 	}

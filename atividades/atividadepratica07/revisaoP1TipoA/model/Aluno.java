@@ -11,6 +11,7 @@ public class Aluno {
 	}
 	
 	public void setNome(String nome) {
+		this.nome = nome;
 		System.out.println("Olá sou " + nome);
 	}
 	
@@ -19,6 +20,7 @@ public class Aluno {
 	}
 	
 	public void setMatricula(String matricula) {
+		this.matricula = matricula;
 		System.out.println("Matricula Finalizada.");
 	}
 	
@@ -27,6 +29,7 @@ public class Aluno {
 	}
 	
 	public void setNotaFinal(double notaFinal) {
+		this.notaFinal = notaFinal;
 		System.out.println("Minha nota final foi: " + notaFinal);
 	}
 	
