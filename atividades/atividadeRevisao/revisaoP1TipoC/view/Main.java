@@ -1,7 +1,7 @@
-package atividades.atividadepratica07.revisaoP1TipoC.view;
-import atividades.atividadepratica07.revisaoP1TipoC.model.Celular;
-import atividades.atividadepratica07.revisaoP1TipoC.model.ContaBancaria;
-import atividades.atividadepratica07.revisaoP1TipoC.model.PostoCombustivel;
+package atividades.atividadeRevisao.revisaoP1TipoC.view;
+import atividades.atividadeRevisao.revisaoP1TipoC.model.Celular;
+import atividades.atividadeRevisao.revisaoP1TipoC.model.ContaBancaria;
+import atividades.atividadeRevisao.revisaoP1TipoC.model.PostoCombustivel;
 
 public class Main {
     public static void main(String[] args) {

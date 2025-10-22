@@ -1,7 +1,7 @@
-package atividades.atividadepratica07.revisaoP1TipoA.view;
-import atividades.atividadepratica07.revisaoP1TipoA.model.Aluno;
-import atividades.atividadepratica07.revisaoP1TipoA.model.Carro;
-import atividades.atividadepratica07.revisaoP1TipoA.model.Farmacia;
+package atividades.atividadeRevisao.revisaoP1TipoA.view;
+import atividades.atividadeRevisao.revisaoP1TipoA.model.Aluno;
+import atividades.atividadeRevisao.revisaoP1TipoA.model.Carro;
+import atividades.atividadeRevisao.revisaoP1TipoA.model.Farmacia;
 
 public class Main {
  

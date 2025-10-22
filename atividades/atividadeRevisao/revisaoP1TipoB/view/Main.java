@@ -1,7 +1,7 @@
-package atividades.atividadepratica07.revisaoP1TipoB.view;
-import atividades.atividadepratica07.revisaoP1TipoB.model.Livro;
-import atividades.atividadepratica07.revisaoP1TipoB.model.SuperMercado;
-import atividades.atividadepratica07.revisaoP1TipoB.model.Funcionario;
+package atividades.atividadeRevisao.revisaoP1TipoB.view;
+import atividades.atividadeRevisao.revisaoP1TipoB.model.Livro;
+import atividades.atividadeRevisao.revisaoP1TipoB.model.SuperMercado;
+import atividades.atividadeRevisao.revisaoP1TipoB.model.Funcionario;
 
 public class Main {
     

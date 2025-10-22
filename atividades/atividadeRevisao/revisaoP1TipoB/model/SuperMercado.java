@@ -1,4 +1,4 @@
-package atividades.atividadepratica07.revisaoP1TipoB.model;
+package atividades.atividadeRevisao.revisaoP1TipoB.model;
 
 public class SuperMercado {
     private String[] nomesProdutos;

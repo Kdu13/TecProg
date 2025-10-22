@@ -1,4 +1,4 @@
-package atividades.atividadepratica07.revisaoP1TipoA.model;
+package atividades.atividadeRevisao.revisaoP1TipoA.model;
 
 public class Farmacia {
     private String[] nomesMedicamentos;
