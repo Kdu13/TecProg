@@ -36,5 +36,6 @@ public class exercicio01 {
             }
             System.out.println(" ");
         }
+        scan.close();
     }
 }

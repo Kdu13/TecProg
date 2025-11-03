@@ -15,6 +15,7 @@ public class exercicio01 {
 			System.out.println("O número é negativo.");
 		} else {
 			System.out.println("O número é zero.");
+			scan.close();
 		}
 	}
 }

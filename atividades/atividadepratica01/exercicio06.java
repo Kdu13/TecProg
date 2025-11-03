@@ -16,5 +16,6 @@ public class exercicio06 {
         }
 
         System.out.println("O fatorial de " + num + " é: " + fatorial);
+        scan.close();
     }
 }

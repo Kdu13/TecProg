@@ -29,5 +29,6 @@ public class exercicio03 {
                 System.out.println("Opção inválida. Por favor, escolha 1 ou 2.");
                 break;
         }
+        scan.close();
     }
 }

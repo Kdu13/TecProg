@@ -19,5 +19,6 @@ public class exercicio08 {
         }
 
         System.out.println("A soma dos números impares é: " + soma);
+        scan.close();
     }
 }

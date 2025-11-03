@@ -20,5 +20,6 @@ public class exercicio02 {
 		} else {
 			System.out.println("Os números são diferentes e o segundo valor é maior");
 		}
+		scan.close();
 	}
 }

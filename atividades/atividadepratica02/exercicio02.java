@@ -39,5 +39,6 @@ public class exercicio02 {
 
             System.out.println("Não logou.");
         }
+        scan.close();
     }
 }

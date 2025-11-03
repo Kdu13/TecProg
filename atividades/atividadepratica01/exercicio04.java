@@ -13,6 +13,6 @@ public class exercicio04 {
         for (int contador = 1; contador <= 10; contador++) {
             System.out.println(num + " x " + contador + " = " + (num * contador));
         }
-
+        scan.close();
     }
 }

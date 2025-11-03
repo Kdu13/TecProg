@@ -30,5 +30,6 @@ public class exercicio09 {
         else{
             System.out.println("Nome não encontrado");
         }
+        scan.close();
     }
 }

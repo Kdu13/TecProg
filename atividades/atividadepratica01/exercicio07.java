@@ -17,5 +17,6 @@ public class exercicio07 {
         } else {
             System.out.println("Menor de idade.");
         }
+        scan.close();
     }
 }

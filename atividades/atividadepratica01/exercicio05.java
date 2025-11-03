@@ -15,5 +15,6 @@ public class exercicio05 {
         } else {
             System.out.println("O número " + num + " é ímpar.");
         }
+        scan.close();
     }
 }

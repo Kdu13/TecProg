@@ -17,5 +17,6 @@ public class exercicio10 {
             }
         }while(!senha.equals(senhaSecreta));
         System.out.println("Acesso Liberado.");
+        scan.close();
     }
 }
