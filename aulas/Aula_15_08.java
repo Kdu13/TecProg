@@ -1,7 +1,7 @@
 package aulas;
-import java.util.Random;  // (Dia da Aula 15/08/25)
+import java.util.Random;
 
-public class random {
+public class Aula_15_08 {
     
 public static void main(String[] args){
 
