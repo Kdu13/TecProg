@@ -4,8 +4,8 @@ public class Aluno {
     private String nome;
 	private String matricula;
 	private double notaFinal;
-	
-	public String getNome(){
+
+    public String getNome(){
 		return this.nome;
 	}
 	
