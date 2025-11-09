@@ -69,7 +69,7 @@ public class Empresa {
             soma = calc.somar(soma, funcionarios[i].getSalario());
         }
 
-        mediaSalarial = soma / qtdFuncionarios;
+        double mediaSalarial = soma * (1.0 / qtdFuncionarios);
         return mediaSalarial;
     }
 
