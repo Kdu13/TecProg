@@ -1,4 +1,4 @@
-package atividades.atividadepratica10.exercicio01.model;
+package atividades.atividadepratica10.model;
 
 public class Cliente {
     private String nome;
